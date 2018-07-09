@@ -332,11 +332,11 @@ export default
       this.seen = true
     },
     copy: function () {
-      // const btn = document.querySelector('#wechatBtn')
+      const btn = document.querySelector('#wechatBtn')
       const input = document.querySelector('#wechatStr')
       input.select()
       if (document.execCommand('copy')) {
-        // document.execCommand('copy');
+        document.execCommand('copy')
         var comf = window.confirm('复制成功,是否打开微信?')
       } else {
         alert('复制失败,请长按复制')
