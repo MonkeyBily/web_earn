@@ -160,8 +160,8 @@
     </a><a class="closeBtn" v-on:click="close()" style="cursor:pointer">X</a>
     </p>
       <p class="wxid">
-        <input type="text" id="wechatStr" :value="copyValue">
-        <button id="wechatBtn"  v-on:click.stop="copy()" >点我复制</button>
+        <textarea type="text" id="wechatStr" :value="copyValue"></textarea>
+        <button id="wechatBtn" v-bind:data-clipboard-text = 'copyValue' type="text" v-on:click="copy()">点我复制</button>
       </p>
       <p class="p2">
         <a href="weixin://" onclick="PIWI_SUBMIT.Weixin_Open()">
@@ -316,8 +316,13 @@
 </style>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <script>
+// eslint-disable-next-line no-new
+import Clipboard from 'clipboard'
+// eslint-disable-next-line no-new
+new Clipboard('#wechatBtn')
 export default
-{name: 'HelloWorld',
+{
+  name: 'HelloWorld',
   data () {
     return {
       seen: false,
@@ -332,7 +337,11 @@ export default
       this.seen = true
     },
     copy: function () {
-      const btn = document.querySelector('#wechatBtn')
+      var comf = window.confirm('复制成功，是否打开微信？')
+      if (comf) {
+        window.open('weixin://')
+      }
+      /* const btn = document.querySelector('#wechatBtn')
       const input = document.querySelector('#wechatStr')
       input.select()
       if (document.execCommand('copy')) {
@@ -343,7 +352,7 @@ export default
       }
       if (comf) {
         window.open('weixin://')
-      }
+      } */
     }
   }
 }
