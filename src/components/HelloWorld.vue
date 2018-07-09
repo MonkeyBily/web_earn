@@ -153,7 +153,7 @@
       </strong>
     </div>
     <div id="tankuang" v-if="seen">
-    <div class="wechat" id="wechat" style="display: block; ">
+    <div class="wechat" id="wechat" style="display: block; text-align: center ">
       <a class="screen-name" style="color: #777;">
       </a><p class="p1"><a class="screen-name" style="color: #777;">
       <span class="msg">点击复制，打开微信号添加好友</span>

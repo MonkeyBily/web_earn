@@ -51,8 +51,8 @@
       <file leaf-file-name="HelloWorld.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="338" column="23" lean-forward="true" selection-start-line="338" selection-start-column="23" selection-end-line="338" selection-end-column="23" />
+            <state relative-caret-position="121">
+              <caret line="155" column="77" selection-start-line="155" selection-start-column="77" selection-end-line="155" selection-end-column="77" />
               <folding>
                 <element signature="e#5796#5802#0" expanded="true" />
                 <element signature="n#style#0;n#!!top" />
@@ -217,12 +217,12 @@
       <updated>1531129296962</updated>
       <workItem from="1531129298087" duration="3977000" />
       <workItem from="1531133860566" duration="84000" />
-      <workItem from="1531133958479" duration="7614000" />
+      <workItem from="1531133958479" duration="7876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11675000" />
+    <option name="totallyTimeSpent" value="11937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -256,7 +256,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -426,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="338" column="23" lean-forward="true" selection-start-line="338" selection-start-column="23" selection-end-line="338" selection-end-column="23" />
+        <state relative-caret-position="121">
+          <caret line="155" column="77" selection-start-line="155" selection-start-column="77" selection-end-line="155" selection-end-column="77" />
           <folding>
             <element signature="e#5796#5802#0" expanded="true" />
             <element signature="n#style#0;n#!!top" />
