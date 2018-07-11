@@ -318,7 +318,7 @@
 <script>
 import Clipboard from 'clipboard'
 // eslint-disable-next-line no-new
-new Clipboard('#wechatBtn')
+var res=new Clipboard('#wechatBtn')
 export default
 {
   name: 'HelloWorld',
@@ -336,9 +336,13 @@ export default
       this.seen = true
     },
     copy: function () {
-      var comf = window.confirm('复制成功，是否打开微信？')
-      if (comf) {
-        window.open('weixin://')
+      if (res) {
+        var comf = window.confirm('复制成功，是否打开微信？')
+        if (comf) {
+          window.open('weixin://')
+        }
+      } else {
+        alert('复制失败，请长按复制')
       }
       /* const btn = document.querySelector('#wechatBtn')
       const input = document.querySelector('#wechatStr')
