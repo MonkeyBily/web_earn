@@ -316,7 +316,6 @@
 </style>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <script>
-// eslint-disable-next-line no-new
 import Clipboard from 'clipboard'
 // eslint-disable-next-line no-new
 new Clipboard('#wechatBtn')
