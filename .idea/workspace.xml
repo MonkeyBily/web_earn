@@ -3,6 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="075e1bbe-426b-46e1-a8b6-d97336821f09" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/641.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/article-8min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/.github/issue_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/contributing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/constructor-node.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/constructor-nodelist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/constructor-selector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/function-target.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/function-text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/target-div.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/target-input.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/demo/target-textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/dist/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/dist/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/src/clipboard-action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/src/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/test/clipboard-action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/test/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/clipboard.js-master/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.44d0c97470c18bbdd6e48495999529d7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.44d0c97470c18bbdd6e48495999529d7.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/img/641.6dd860c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.b2e39a26a885c4ed785f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.b2e39a26a885c4ed785f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.3ad1d5771e9b13dbdad2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.3ad1d5771e9b13dbdad2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.fdf017143f0b2cf6f5ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.fdf017143f0b2cf6f5ea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/share_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/touch-icon-iphone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/weixin.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -68,8 +105,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="271">
+              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -202,16 +239,15 @@
       <workItem from="1531133860566" duration="84000" />
       <workItem from="1531133958479" duration="10408000" />
       <workItem from="1531210732548" duration="71000" />
-      <workItem from="1531297846654" duration="1907000" />
+      <workItem from="1531297846654" duration="2429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16447000" />
+    <option name="totallyTimeSpent" value="16969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -565,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="271">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
         </state>
       </provider>
     </entry>
