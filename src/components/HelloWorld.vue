@@ -318,7 +318,7 @@
 <script>
 import Clipboard from 'clipboard'
 // eslint-disable-next-line no-new
-var res=new Clipboard('#wechatBtn')
+var res = new Clipboard('#wechatBtn')
 export default
 {
   name: 'HelloWorld',

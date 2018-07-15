@@ -1,0 +1,298 @@
+*{
+  margin: 0;
+  padding:0;
+}
+/*顶部top-box配置*/
+.top-box{
+  background-color: #f5f5f5;
+  width: 100%;
+  height:34px;
+}
+.top-box-main{
+  padding-left: 175px;
+}
+
+/*header配置*/
+.header{
+  height:96px;
+}
+.header-container{
+  padding-left: 175px;
+  min-width: 1016px;
+}
+.header-container-img1{
+  height: 96px;
+  width: 214px;
+  background-image:url("logo.png");
+  float: left;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.header-container-img2{
+  height: 94px;
+  width: 199px;
+  float: left;
+  background-image: url("logo_tit.png");
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.header-container-msg{
+  width: 95px;
+  height: 38px;
+  border: 1px solid;
+  float: left;
+  margin-top: 31px;
+  margin-left: 4px;
+}
+.header-container-conf{
+  width: 84px;
+  height: 37px;
+  background-color: red;
+  float: left;
+  margin-top: 31px;
+  margin-left:4px;
+}
+.header-container-reg{
+  width: 84px;
+  height: 37px;
+  background-color: blue;
+  float: left;
+  margin-top: 31px;
+  margin-left:4px;
+}
+/*main文件配置*/
+.main{
+  min-width: 1016px;
+}
+.main-head{
+  height: 45px;
+  background-color: #f13131;
+}
+.main-head-container{
+  padding-left: 175px;
+  min-width: 1016px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.main-head-lot{
+  width: 230px;
+  height: 45px;
+  float: left;
+  background-color: #d92c2c;
+  text-align: center;
+  Line-Height:45px;
+}
+.main-head-title{
+  width: 94px;
+  height:45px;
+  float: left;
+  text-align: center;
+  Line-Height:45px;
+  cursor: pointer;
+}
+.main-body{
+  padding-left: 175px;
+  min-width: 1016px;
+}
+.main-body-f{
+  width:230px;
+  float: left;
+}
+.main-body-f-lot{
+  width:230px;
+  height: 280px;
+  background-color: #f5f5f5;
+}
+.main-body-lot-detail{
+  width: 220px;
+  height: 55px;
+  border-bottom:1px dashed;
+  margin-left: 5px;
+  border-color: gainsboro;
+}
+.main-body-lot-detail:hover{
+  color: #f00;
+  cursor: pointer;
+}
+.main-body-f-lot2{
+  margin-top: 10px;
+  width: 228px;
+  height:250px;
+  border: 1px #f5f5f5 solid;
+}
+.main-body-f-guest{
+  width: 228px;
+  height: 190px;
+  border: 1px solid #f5f5f5;
+  margin-top: 28px;
+}
+.main-body-f-guest-head{
+  width: 228px;
+  height: 37px;
+  background-color:rgb(245, 245, 245);
+}
+/*通知*/
+.main-body-notice{
+  width: 758px;
+  height: 57px;
+  border: #f5f5f5 1px solid;
+  float: left;
+  margin-left: 13px;
+}
+.main-body-s{
+  margin-left:13px ;
+  float: left;
+}
+.main-body-s-Carousel{
+  margin-top: 5px ;
+  width: 534px;
+  height: 220px;
+}
+.main-body-s-Carousel-img{
+  width: 534px;
+  height: 220px;
+}
+.main-body-s-bet {
+  width: 534px;
+  margin-top: 10px;
+}
+.main-body-s-bet-head{
+  width: 105.6px;
+  height: 44px;
+  float: left;
+  background-color: #dbdbdb;
+  margin-left: 1px;
+  margin-top: 1px;
+  color: black;
+  text-align: center;
+  line-height: 44px;
+  font-size: 14px;
+}
+.main-body-s-bet-head:hover{
+  background-color: #f13131;
+  color: #ffffff;
+  cursor: pointer;
+}
+.main-body-s-bet-head-hover{
+  background-color: #f13131;
+  color: #ffffff;
+  cursor: pointer;
+}
+.main-body-s-bet-body{
+  width: 532px;
+  height: 250px;
+  border: 1px solid gainsboro;
+  margin-left: 1px;
+  margin-top:1px;
+}
+.main-body-s-Trend{
+  margin-top: 11px;
+  width: 534px;
+  height: 203px;
+  border:1px solid gainsboro;
+}
+.main-body-t{
+  margin-left:10px;
+  width: 212px;
+  float: left;
+  margin-top:5px;
+}
+.main-body-t-qr{
+  width: 212px;
+  height: 323px;
+  border: 1px solid #f5f5f5;
+}
+.main-body-t-recommend{
+  margin-top: 5px;
+}
+.main-body-t-recommend-head{
+  color: #8f2413;
+  width: 214px;
+  height: 40px;
+  background-color:#f5f5f5;
+  background-image: url("great.png");
+  background-size: 18%;
+  background-repeat: no-repeat;
+}
+.main-body-t-recommend-head > div{
+  margin-left: 40px;
+  padding-top: 10px;
+  color: #8f2413;
+  background-image: url("xzcc.png");
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position-x:140px;
+  background-position-y: 13px;
+}
+.main-body-t-recommend-body{
+  width: 212px;
+  height: 241px;
+  border: 1px solid #f5f5f5;
+  border-top: none;
+}
+.main-body-t-img{
+  margin-top: 8px;
+  width: 212px;
+  height: 78px;
+  background-image: url("give.jpg");
+}
+/*页脚*/
+.footer{
+  margin-top: 10px;
+  height: 198px;
+  float: left;
+}
+.footer-container{
+  height: 198px;
+  min-width: 1016px;
+  margin-left: 175px;
+}
+.footer-container-title{
+  width: 1001px;
+  height: 40px;
+  border-top: 2px solid #f13833;
+}
+.footer-container-logo{
+  width: 1000px;
+  height: 92px;
+  background-image: url("bottom-info.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position-x: 55px;
+}
+.footer-container-statement{
+  width: 1000px;
+  height: 44px;
+  font-weight: bold ;
+}
+/*彩种详情*/
+.img1{
+  background-image: url("lott_coin.png");
+  background-repeat: no-repeat;
+  background-position-y: -501px;
+}
+.img2 {
+  background-image: url("lott_coin.png");
+  background-repeat: no-repeat;
+  background-position-y: -62px;
+}
+.img3{
+  background-image: url("lott_coin.png");
+  background-repeat: no-repeat;
+  background-position-y: -319px;
+}
+.img4{
+  background-image: url("lott_coin.png");
+  background-repeat: no-repeat;
+  background-position-y: -252px;
+}
+.img5{
+  background-image: url("lott_coin.png");
+  background-repeat: no-repeat;
+  background-position-y: -123px;
+}
+.img6{
+  background-image: url("lott_coin.png");
+  background-repeat: no-repeat;
+  background-position-y: -612px;
+}
